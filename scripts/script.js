@@ -52,3 +52,7 @@
 //   number++;
 // }
 // console.log(number);
+
+const a = prompt("Enter a number:");
+const b = prompt("Enter a number:");
+const c = prompt("Enter a number:");
