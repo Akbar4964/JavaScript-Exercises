@@ -22,13 +22,18 @@
 //   console.log("Bunday kun yo'q");
 // }
 
-// const a = 2;
-// const b = 2;
-// const c = 2;
-// if ((a, b, c > 0)) {
-//   console.log(a, b, c + 1);
-// } else if (b > 0) {
-//   console.log(+1);
-// } else {
-//   console.log("");
+// function result(num1, num2, num3) {
+//   let number = 0;
+//   if (num1 > 0) {
+//     number++;
+//   }
+//   if (num2 > 0) {
+//     number++;
+//   }
+//   if (num3 > 0) {
+//     number++;
+//   }
+//   return number;
 // }
+// let numbers = result(1, -2, 3);
+// console.log(numbers);
