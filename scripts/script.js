@@ -21,3 +21,7 @@
 // } else {
 //   console.log("Bunday kun yo'q");
 // }
+
+const a = 2;
+const b = -1;
+const c = 4;
