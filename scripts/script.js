@@ -37,3 +37,18 @@
 // }
 // let numbers = result(1, -2, 3);
 // console.log(numbers);
+
+// let number = 0;
+// const a = prompt("Enter a number:");
+// const b = prompt("Enter a number:");
+// const c = prompt("Enter a number:");
+// if (a > 0) {
+//   number++;
+// }
+// if (b > 0) {
+//   number++;
+// }
+// if (c > 0) {
+//   number++;
+// }
+// console.log(number);
