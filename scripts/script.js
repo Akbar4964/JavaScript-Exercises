@@ -22,6 +22,13 @@
 //   console.log("Bunday kun yo'q");
 // }
 
-const a = 2;
-const b = -1;
-const c = 4;
+// const a = 2;
+// const b = 2;
+// const c = 2;
+// if ((a, b, c > 0)) {
+//   console.log(a, b, c + 1);
+// } else if (b > 0) {
+//   console.log(+1);
+// } else {
+//   console.log("");
+// }
