@@ -72,3 +72,19 @@
 
 // const min = findMinimum(a, b, c);
 // console.log("Eng kichik son: " + min);
+
+function findMinNumber(a, b, c, d, e) {
+  if ((a < 0, a <= b && a <= c && a <= d && a <= e)) {
+    return a;
+  } else if ((b > 0, b <= a && b <= c && b <= d && b <= e)) {
+    return b;
+  } else if ((c > 0, c <= a && c <= b && c <= d && c <= e)) {
+    return c;
+  } else if ((d > 0, d <= a && d <= b && d <= c && d <= e)) {
+    return d;
+  } else if ((e > 0, e <= a && e <= b && e <= c && e <= d)) {
+    return e;
+  }
+}
+const minNumber = findMinNumber(-1, 3, 7, 4, 7);
+console.log(minNumber);
