@@ -58,15 +58,21 @@
 // const c = prompt("Enter a number:");
 
 function findMinimum(numbers) {
-    let minimum = numbers[0];
-    for (let i = 1; i < numbers.length; i++) {
-      if (numbers[i] < minimum) {
-        minimum = numbers[i];
-      }
+  let minimum = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < minimum) {
+      minimum = numbers[i];
     }
-    return minimum;
   }
-  
-  let numbers = [3, 7, 2, 9, 5];
-  let minimumNumber = findMinimum(numbers);
-  console.log("Eng kichik son: " + minimumNumber);
+  return minimum;
+}
+
+// let numbers = [3, 7, 2, 9, 5];
+let minimumNumber = findMinimum(numbers);
+console.log("Eng kichik son: " + minimumNumber);
+
+const numbers = [1, 2, 3];
+let min = 0;
+if (numbers < min) {
+  min = numbers;
+}
