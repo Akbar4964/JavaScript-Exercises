@@ -89,8 +89,6 @@
 // const minNumber = findMinNumber(10, 3, 7, 4, 7);
 // console.log(minNumber);
 
-
-// Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
