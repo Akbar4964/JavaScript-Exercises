@@ -91,12 +91,12 @@
 
 function newElement() {
   let li = document.createElement("li");
-  let inputValue = document.getElementById("myInput").value;
+  let inputValue = document.getElementById("getData").value;
   let t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === "") {
     alert("Hech nima yozilmagan!");
   } else {
-    document.getElementById("myUL").appendChild(li);
+    document.getElementById("dataName").appendChild(li);
   }
 }
