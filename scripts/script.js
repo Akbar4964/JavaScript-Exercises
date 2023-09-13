@@ -56,3 +56,13 @@
 // const a = prompt("Enter a number:");
 // const b = prompt("Enter a number:");
 // const c = prompt("Enter a number:");
+
+const numbers = [1, 2, 3];
+if (numbers === 1) {
+  console.log(1);
+} else if (numbers === 2) {
+  console.log(2);
+} else if (numbers === 3) {
+  console.log(3);
+}
+console.log(numbers);
