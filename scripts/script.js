@@ -99,11 +99,6 @@ function newElement() {
   } else {
     document.getElementById("myUL").appendChild(li);
   }
-  document.getElementById("myInput").value = "";
-  let txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
 
   for (i = 0; i < close.length; i++) {
     close[i].onclick = function () {
