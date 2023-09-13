@@ -89,16 +89,6 @@
 // const minNumber = findMinNumber(10, 3, 7, 4, 7);
 // console.log(minNumber);
 
-// Create a "close" button and append it to each list item
-var myNodelist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
-}
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
