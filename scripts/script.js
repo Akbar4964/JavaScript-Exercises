@@ -95,15 +95,8 @@ function newElement() {
   let t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === "") {
-    alert("You must write something!");
+    alert("Hech nima yozilmagan!");
   } else {
     document.getElementById("myUL").appendChild(li);
-  }
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function () {
-      let div = this.parentElement;
-      div.style.display = "none";
-    };
   }
 }
