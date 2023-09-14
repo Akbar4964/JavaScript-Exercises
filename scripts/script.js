@@ -120,15 +120,15 @@
 
 console.log(res);
 numbers.forEach((el) => {
-//   if (el > 0) {
-//     res = res < el && res ? res : el;
-//   } else if (res <= 0 && el < 0) {
-//     res = 0;
-//   }
-//   //   console.log(res, el);
-// });
+  if (el > 0) {
+    res = res < el && res ? res : el;
+  } else if (res <= 0 && el < 0) {
+    res = 0;
+  }
+  //   console.log(res, el);
+});
 
-// console.log(res);
+console.log(res);
 
 // const people = [
 //   {
