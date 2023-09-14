@@ -219,20 +219,20 @@
 
 // res = 1;
 
-// console.log(res);
+console.log(res);
 
-// function findLargestOddElement(array) {
-//   let largestOdd = 0;
-//   let index = 0;
+function findLargestOddElement(array) {
+  let largestOdd = 0;
+  let index = 0;
 
-//   for (let i = 0; i < array.length; i++) {
-//     if (array[i] % 2 !== 0 && array[i] > largestOdd) {
-//       largestOdd = array[i];
-//       index = i;
-//     }
-//   }
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 !== 0 && array[i] > largestOdd) {
+      largestOdd = array[i];
+      index = i;
+    }
+  }
 
-//   if (largestOdd === 0) {
+  if (largestOdd === 0) {
 //     return 0;
 //   } else {
 //     return [largestOdd, index];
