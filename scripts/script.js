@@ -203,21 +203,21 @@ const fruits = [
     name: "Olcha",
     price: 1000,
   },
-// ];
+];
 
-// let res = 0;
+let res = 0;
 
-// for (const items of fruits) {
-//   //   const res = items.price + 410000
+for (const items of fruits) {
+  //   const res = items.price + 410000
 
-//   res = res + items.price;
+  res = res + items.price;
 
-//   //   console.log(res);
-// }
+  //   console.log(res);
+}
 
-// console.log(res);
+console.log(res);
 
-// res = 1;
+res = 1;
 
 // console.log(res);
 
