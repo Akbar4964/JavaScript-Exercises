@@ -233,21 +233,21 @@ function findLargestOddElement(array) {
   }
 
   if (largestOdd === 0) {
-//     return 0;
-//   } else {
-//     return [largestOdd, index];
-//   }
-// }
+    return 0;
+  } else {
+    return [largestOdd, index];
+  }
+}
 
-// // Misol uchun massiv
-// const numbers = [2, 4, 6, 8, 10, 24, 100, 12, 20];
+// Misol uchun massiv
+const numbers = [2, 4, 6, 8, 10, 24, 100, 12, 20];
 
-// // Natijani chiqaramiz
-// // console.log(findLargestOddElement(numbers));
+// Natijani chiqaramiz
+// console.log(findLargestOddElement(numbers));
 
-// const arr = [4, 3, 1, 2, 5];
-// const result = arr.every((item) => item === 1);
-// // console.log(result);
+const arr = [4, 3, 1, 2, 5];
+const result = arr.every((item) => item === 1);
+// console.log(result);
 
 // const result2 = arr.some((item) => item === 2);
 // // console.log(result2);
