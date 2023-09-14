@@ -286,20 +286,20 @@
 //   else return 0;
 // });
 
-// const res2 = number.sort((a, b) => {
-//   if (a.name > b.name) return 1;
-//   else if (a.name < b.name) return -1;
-//   else return 0;
-// });
+const res2 = number.sort((a, b) => {
+  if (a.name > b.name) return 1;
+  else if (a.name < b.name) return -1;
+  else return 0;
+});
 
-// const res3 = number.sort((a, b) => {
-//   const name1 = a.name.toLocaleLowerCase();
-//   const name2 = b.name.toLocaleLowerCase();
+const res3 = number.sort((a, b) => {
+  const name1 = a.name.toLocaleLowerCase();
+  const name2 = b.name.toLocaleLowerCase();
 
-//   if (name1 > name2) return 1;
-//   else if (name1 < name2) return -1;
-//   else return 0;
-// });
+  if (name1 > name2) return 1;
+  else if (name1 < name2) return -1;
+  else return 0;
+});
 
 // const res4 = number.sort((a, b) => a.name.localeCompare(b.name));
 // // console.log(res4);
