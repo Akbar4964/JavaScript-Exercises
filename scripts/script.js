@@ -188,21 +188,21 @@
 // };
 // for (const key in objects) {
   // console.log(key,objects[key])
-// }
+}
 
-// const fruits = [
-//   {
-//     name: "Olma",
-//     price: 10000,
-//   },
-//   {
-//     name: "Banan",
-//     price: 10000,
-//   },
-//   {
-//     name: "Olcha",
-//     price: 1000,
-//   },
+const fruits = [
+  {
+    name: "Olma",
+    price: 10000,
+  },
+  {
+    name: "Banan",
+    price: 10000,
+  },
+  {
+    name: "Olcha",
+    price: 1000,
+  },
 // ];
 
 // let res = 0;
