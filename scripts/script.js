@@ -280,17 +280,17 @@ const number = [
     age: 40,
   },
 ];
-// const res = number.sort((a, b) => {
-//   if (a.age > b.age) return 1;
-//   else if (a.age < b.age) return -1;
-//   else return 0;
-// });
+const res = number.sort((a, b) => {
+  if (a.age > b.age) return 1;
+  else if (a.age < b.age) return -1;
+  else return 0;
+});
 
-// const res2 = number.sort((a, b) => {
-//   if (a.name > b.name) return 1;
-//   else if (a.name < b.name) return -1;
-//   else return 0;
-// });
+const res2 = number.sort((a, b) => {
+  if (a.name > b.name) return 1;
+  else if (a.name < b.name) return -1;
+  else return 0;
+});
 
 // const res3 = number.sort((a, b) => {
 //   const name1 = a.name.toLocaleLowerCase();
