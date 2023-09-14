@@ -249,20 +249,20 @@
 // const result = arr.every((item) => item === 1);
 // console.log(result);
 
-// const result2 = arr.some((item) => item === 2);
-// // console.log(result2);
+const result2 = arr.some((item) => item === 2);
+// console.log(result2);
 
-// const result3 = arr.reverse();
-// // console.log(result3);
+const result3 = arr.reverse();
+// console.log(result3);
 
-// const result4 = arr.sort();
-// // console.log(result4);
+const result4 = arr.sort();
+// console.log(result4);
 
-// const number = [
-//   {
-//     name: "Zarina",
-//     age: 21,
-//   },
+const number = [
+  {
+    name: "Zarina",
+    age: 21,
+  },
 //   {
 //     name: "Bahodir",
 //     age: 15,
