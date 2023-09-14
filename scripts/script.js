@@ -140,16 +140,16 @@ const people = [
     name: "Samir",
     surname: "Abrorov",
     age: 17,
-//   },
-//   {
-//     name: "Abdulaziz",
-//     surname: "Qodirov",
-//     age: 18,
-//   },
-// ];
-// for (const key in people) {
-//   console.log(key, people[key]);
-// }
+  },
+  {
+    name: "Abdulaziz",
+    surname: "Qodirov",
+    age: 18,
+  },
+];
+for (const key in people) {
+  console.log(key, people[key]);
+}
 
 // const colors = ["oq", "qora", "yashil"];
 // for (const idx in colors) {
