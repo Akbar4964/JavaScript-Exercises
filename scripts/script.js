@@ -313,7 +313,7 @@
 function findLargestOddElement(array) {
   let largestOdd = 0;
   let index = 0;
-  for (let i = 0; i < array.length; i++) {
+  for (let i in numbers) {
     if (array[i] % 2 !== 0 && array[i] > largestOdd) {
       largestOdd = array[i];
       index = i;
@@ -325,5 +325,5 @@ function findLargestOddElement(array) {
     return [largestOdd, index];
   }
 }
-const numbers = [2, 4, 6, 8, 10, 24, 100, 12, 20];
+const numbers = [1, 2, 3, 4, 5, 6, 7];
 console.log(findLargestOddElement(numbers));
