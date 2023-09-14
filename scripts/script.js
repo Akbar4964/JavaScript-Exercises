@@ -110,16 +110,16 @@
 //     if (res < el && res) {
 //       res = res;
 //     } else {
-//       res = el;
-//     }
-//   } else if (res <= 0 && el < 0) {
-//     res = 0;
-//   }
-//   console.log(res, el);
-// });
+      res = el;
+    }
+  } else if (res <= 0 && el < 0) {
+    res = 0;
+  }
+  console.log(res, el);
+});
 
-// console.log(res);
-// numbers.forEach((el) => {
+console.log(res);
+numbers.forEach((el) => {
 //   if (el > 0) {
 //     res = res < el && res ? res : el;
 //   } else if (res <= 0 && el < 0) {
