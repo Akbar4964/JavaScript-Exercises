@@ -328,20 +328,20 @@
 // const numbers = [1, 2, 3, 4, 5, 6, 7];
 // console.log(findLargestOddElement(numbers));
 
-function findLargestOddElement(array) {
-  let largestOdd = 0;
-  let index = 0;
-  for (let i of numbers) {
-    if (array[i] % 2 !== 0 && array[i] > largestOdd) {
-      largestOdd = array[i];
-      index = i;
-    }
-  }
-  if (largestOdd === 0) {
-    return 0;
-  } else {
-    return [largestOdd, index];
-  }
-}
-const numbers = [1, 2, 3, 4, 5, 6, 7, 9, 10];
-console.log(findLargestOddElement(numbers));
+// function findLargestOddElement(array) {
+//   let largestOdd = 0;
+//   let index = 0;
+//   for (let i of numbers) {
+//     if (array[i] % 2 !== 0 && array[i] > largestOdd) {
+//       largestOdd = array[i];
+//       index = i;
+//     }
+//   }
+//   if (largestOdd === 0) {
+//     return 0;
+//   } else {
+//     return [largestOdd, index];
+//   }
+// }
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 9, 10];
+// console.log(findLargestOddElement(numbers));
