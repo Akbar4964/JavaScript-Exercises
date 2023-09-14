@@ -301,17 +301,17 @@ const res3 = number.sort((a, b) => {
   else return 0;
 });
 
-const res4 = number.sort((a, b) => a.name.localeCompare(b.name));
-// console.log(res4);
+// const res4 = number.sort((a, b) => a.name.localeCompare(b.name));
+// // console.log(res4);
 
-let arrStr = arr.join("");
+// let arrStr = arr.join("");
 
-console.log(typeof arrStr);
+// console.log(typeof arrStr);
 
-const newArr = [1, 2, [3, 4], [5, 6]]; // [1,2,3,4.5]
-const newArr2 = [1, 2, [3, 4, [4, [5, [15]]]], [5, 6]]; // [4, [5, [15]]]
+// const newArr = [1, 2, [3, 4], [5, 6]]; // [1,2,3,4.5]
+// const newArr2 = [1, 2, [3, 4, [4, [5, [15]]]], [5, 6]]; // [4, [5, [15]]]
 
-const flatArr = newArr.flat();
-const flatArr2 = newArr2.flat(Infinity);
+// const flatArr = newArr.flat();
+// const flatArr2 = newArr2.flat(Infinity);
 
-console.log(flatArr2);
+// console.log(flatArr2);
