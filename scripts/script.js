@@ -157,36 +157,36 @@
 // }
 
 // const people = [
-  {
-    name: "Akbar",
-    surname: "Shuhratullayev",
-    age: 17,
-  },
-  {
-    name: "Samir",
-    surname: "Abrorov",
-    age: 17,
-  },
-  {
-    name: "Abdulaziz",
-    surname: "Qodirov",
-    age: 18,
-  },
-];
-for (const key of people) {
-  console.log(key);
-}
+//   {
+//     name: "Akbar",
+//     surname: "Shuhratullayev",
+//     age: 17,
+//   },
+//   {
+//     name: "Samir",
+//     surname: "Abrorov",
+//     age: 17,
+//   },
+//   {
+//     name: "Abdulaziz",
+//     surname: "Qodirov",
+//     age: 18,
+//   },
+// ];
+// for (const key of people) {
+//   console.log(key);
+// }
 
-const colors = ["oq", "qora", "yashil"];
-for (const idx of colors) {
-  console.log(idx);
-}
+// const colors = ["oq", "qora", "yashil"];
+// for (const idx of colors) {
+//   console.log(idx);
+// }
 
-const objects = {
-  name: "Olma",
-  price: 10000,
-};
-for (const key in objects) {
+// const objects = {
+//   name: "Olma",
+//   price: 10000,
+// };
+// for (const key in objects) {
   // console.log(key,objects[key])
 // }
 
