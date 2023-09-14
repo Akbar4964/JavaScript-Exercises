@@ -151,13 +151,13 @@ for (const key in people) {
   console.log(key, people[key]);
 }
 
-// const colors = ["oq", "qora", "yashil"];
-// for (const idx in colors) {
-//   console.log(idx, colors[idx]);
-// }
+const colors = ["oq", "qora", "yashil"];
+for (const idx in colors) {
+  console.log(idx, colors[idx]);
+}
 
-// const people = [
-//   {
+const people = [
+  {
 //     name: "Akbar",
 //     surname: "Shuhratullayev",
 //     age: 17,
