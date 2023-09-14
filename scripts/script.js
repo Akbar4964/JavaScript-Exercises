@@ -173,21 +173,21 @@
     age: 18,
   },
 ];
-// for (const key of people) {
-//   console.log(key);
-// }
+for (const key of people) {
+  console.log(key);
+}
 
-// const colors = ["oq", "qora", "yashil"];
-// for (const idx of colors) {
-//   console.log(idx);
-// }
+const colors = ["oq", "qora", "yashil"];
+for (const idx of colors) {
+  console.log(idx);
+}
 
-// const objects = {
-//   name: "Olma",
-//   price: 10000,
-// };
-// for (const key in objects) {
-//   // console.log(key,objects[key])
+const objects = {
+  name: "Olma",
+  price: 10000,
+};
+for (const key in objects) {
+  // console.log(key,objects[key])
 // }
 
 // const fruits = [
