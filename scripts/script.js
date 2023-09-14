@@ -89,17 +89,17 @@
 // const minNumber = findMinNumber(10, 3, 7, 4, 7);
 // console.log(minNumber);
 
-// function getData() {
-//   let li = document.createElement("li");
-//   let inputValue = document.getElementById("getData").value;
-//   let t = document.createTextNode(inputValue);
-//   li.appendChild(t);
-//   if (inputValue === "") {
-//     alert("Hech nima yozilmagan!");
-//   } else {
-//     document.getElementById("dataName").appendChild(li);
-//   }
-// }
+function getData() {
+  let li = document.createElement("li");
+  let inputValue = document.getElementById("getData").value;
+  let t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === "") {
+    alert("Hech nima yozilmagan!");
+  } else {
+    document.getElementById("dataName").appendChild(li);
+  }
+}
 
 // const numbers = [-1, -2, -1, -3, 5, -6, -5];
 
