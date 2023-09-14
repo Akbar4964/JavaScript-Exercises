@@ -188,36 +188,36 @@
 // };
 // for (const key in objects) {
   // console.log(key,objects[key])
-}
+// }
 
-const fruits = [
-  {
-    name: "Olma",
-    price: 10000,
-  },
-  {
-    name: "Banan",
-    price: 10000,
-  },
-  {
-    name: "Olcha",
-    price: 1000,
-  },
-];
+// const fruits = [
+//   {
+//     name: "Olma",
+//     price: 10000,
+//   },
+//   {
+//     name: "Banan",
+//     price: 10000,
+//   },
+//   {
+//     name: "Olcha",
+//     price: 1000,
+//   },
+// ];
 
-let res = 0;
+// let res = 0;
 
-for (const items of fruits) {
-  //   const res = items.price + 410000
+// for (const items of fruits) {
+//   //   const res = items.price + 410000
 
-  res = res + items.price;
+//   res = res + items.price;
 
-  //   console.log(res);
-}
+//   //   console.log(res);
+// }
 
-console.log(res);
+// console.log(res);
 
-res = 1;
+// res = 1;
 
 // console.log(res);
 
