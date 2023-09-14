@@ -219,34 +219,34 @@
 
 // res = 1;
 
-console.log(res);
+// console.log(res);
 
-function findLargestOddElement(array) {
-  let largestOdd = 0;
-  let index = 0;
+// function findLargestOddElement(array) {
+//   let largestOdd = 0;
+//   let index = 0;
 
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] % 2 !== 0 && array[i] > largestOdd) {
-      largestOdd = array[i];
-      index = i;
-    }
-  }
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] % 2 !== 0 && array[i] > largestOdd) {
+//       largestOdd = array[i];
+//       index = i;
+//     }
+//   }
 
-  if (largestOdd === 0) {
-    return 0;
-  } else {
-    return [largestOdd, index];
-  }
-}
+//   if (largestOdd === 0) {
+//     return 0;
+//   } else {
+//     return [largestOdd, index];
+//   }
+// }
 
-// Misol uchun massiv
-const numbers = [2, 4, 6, 8, 10, 24, 100, 12, 20];
+// // Misol uchun massiv
+// const numbers = [2, 4, 6, 8, 10, 24, 100, 12, 20];
 
-// Natijani chiqaramiz
-// console.log(findLargestOddElement(numbers));
+// // Natijani chiqaramiz
+// // console.log(findLargestOddElement(numbers));
 
-const arr = [4, 3, 1, 2, 5];
-const result = arr.every((item) => item === 1);
+// const arr = [4, 3, 1, 2, 5];
+// const result = arr.every((item) => item === 1);
 // console.log(result);
 
 // const result2 = arr.some((item) => item === 2);
