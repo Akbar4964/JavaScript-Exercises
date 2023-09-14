@@ -130,16 +130,16 @@
 
 // console.log(res);
 
-// const people = [
-//   {
-//     name: "Akbar",
-//     surname: "Shuhratullayev",
-//     age: 17,
-//   },
-//   {
-//     name: "Samir",
-//     surname: "Abrorov",
-//     age: 17,
+const people = [
+  {
+    name: "Akbar",
+    surname: "Shuhratullayev",
+    age: 17,
+  },
+  {
+    name: "Samir",
+    surname: "Abrorov",
+    age: 17,
 //   },
 //   {
 //     name: "Abdulaziz",
