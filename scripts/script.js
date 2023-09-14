@@ -101,15 +101,15 @@ function getData() {
   }
 }
 
-// const numbers = [-1, -2, -1, -3, 5, -6, -5];
+const numbers = [-1, -2, -1, -3, 5, -6, -5];
 
-// let res = numbers[0];
+let res = numbers[0];
 
-// numbers.forEach((el) => {
-//   if (el > 0) {
-//     if (res < el && res) {
-//       res = res;
-//     } else {
+numbers.forEach((el) => {
+  if (el > 0) {
+    if (res < el && res) {
+      res = res;
+    } else {
 //       res = el;
 //     }
 //   } else if (res <= 0 && el < 0) {
