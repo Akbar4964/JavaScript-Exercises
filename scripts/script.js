@@ -263,23 +263,23 @@ const number = [
     name: "Zarina",
     age: 21,
   },
-//   {
-//     name: "Bahodir",
-//     age: 15,
-//   },
-//   {
-//     name: "Begzod",
-//     age: 27,
-//   },
-//   {
-//     name: "ahmat",
-//     age: 27,
-//   },
-//   {
-//     name: "Alisher",
-//     age: 40,
-//   },
-// ];
+  {
+    name: "Bahodir",
+    age: 15,
+  },
+  {
+    name: "Begzod",
+    age: 27,
+  },
+  {
+    name: "ahmat",
+    age: 27,
+  },
+  {
+    name: "Alisher",
+    age: 40,
+  },
+];
 // const res = number.sort((a, b) => {
 //   if (a.age > b.age) return 1;
 //   else if (a.age < b.age) return -1;
