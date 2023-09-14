@@ -157,22 +157,22 @@
 // }
 
 // const people = [
-//   {
-//     name: "Akbar",
-//     surname: "Shuhratullayev",
-//     age: 17,
-//   },
-//   {
-//     name: "Samir",
-//     surname: "Abrorov",
-//     age: 17,
-//   },
-//   {
-//     name: "Abdulaziz",
-//     surname: "Qodirov",
-//     age: 18,
-//   },
-// ];
+  {
+    name: "Akbar",
+    surname: "Shuhratullayev",
+    age: 17,
+  },
+  {
+    name: "Samir",
+    surname: "Abrorov",
+    age: 17,
+  },
+  {
+    name: "Abdulaziz",
+    surname: "Qodirov",
+    age: 18,
+  },
+];
 // for (const key of people) {
 //   console.log(key);
 // }
