@@ -14,9 +14,10 @@ ul,
 li {
   text-decoration: none;
   list-style-type: none;
+  padding: 10px 0;
 }
 
-#getData {
+#addData {
   margin-top: 30px;
   width: 300px;
   height: 50px;
@@ -27,18 +28,34 @@ li {
   padding-left: 15px;
 }
 
-#getData::placeholder {
+#addData::placeholder {
   font-size: 15px;
   letter-spacing: 1.5px;
 }
 
-button {
+.addBtn {
   width: 100px;
   height: 50px;
   border-radius: 10px;
-  background-color: steelblue;
+  background-color: blue;
   border: 0;
   color: #fff;
   font-weight: 700;
   font-size: 15px;
+  cursor: pointer;
 }
+li > .deleteBtn {
+  position: relative;
+}
+
+.deleteBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: -22%;
+}
+
