@@ -368,5 +368,3 @@
 //     return [largestOdd, index];
 //   }
 // }
-
-
